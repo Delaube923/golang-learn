@@ -1,0 +1,24 @@
+{
+    "token": "0x12345678",
+    "id": "52",
+    "data": {
+        "task_id": "xxx",
+        "vehicle_number": "001",
+        "vehicle_model": "X3S",
+        "success": true,
+        "slice_name": "yy-mm-dd_hh-mm-ss.7z",
+        "slice_size": 102400,
+        "slice_md5": "123456",
+        "slice_url": "httpxxx",
+        "slice_info": [
+            {
+                "event_time": "yy-mm-dd_hh-mm-ss",
+                "trigger_type": "自动",
+                "event_type": "超车",
+                "event_description": "低级别风险",
+                "start_time": 123456,
+                "duration": 20
+            }
+        ]
+    }
+}

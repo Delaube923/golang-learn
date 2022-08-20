@@ -1,0 +1,13 @@
+{
+    "token": "0x12345678",
+    "id": 1,
+    "data": {
+        "vehicle_number": "001",
+        "vehicle_modle": "X3S",
+        "vehicle_frame_number":"xxx",
+        "vehicle_usage":"",
+        "name": "hehe",
+        "softs": "hmi",
+        "versions": "1.0.2"
+    }
+}
