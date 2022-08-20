@@ -12,7 +12,7 @@ type Carinfo struct {
 	SliceName     string `json:"sliceName"     description:"切片名称"`
 	SliceSize     int    `json:"sliceSize"     description:"切片大小"`
 	SliceMd5      string `json:"sliceMd5"      description:"切片md5值"`
-	EventId       string `json:"eventId"       description:"事件id"`
+	EventId       int    `json:"eventId"       description:"事件id"`
 	Vin           string `json:"vin"           description:"车架号"`
 	VehicleUse    string `json:"vehicleUse"    description:"车辆用途"`
 	VehicleArea   string `json:"vehicleArea"   description:"所属地区"`

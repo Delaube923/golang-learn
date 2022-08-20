@@ -46,12 +46,10 @@ func (s *sCarInfo) GetCarInfoListFromDb(ctx context.Context) (value interface{},
 		// err = dao.Carinfo.Ctx(ctx).
 		// 	Fields(model.CarInfoListItem{}).Order("vehicle_number desc").Scan(&v)
 		// fmt.Println(g.DB().Model().Where("vehicle_number", 22))
-
 		// c := g.DB().Model().Where("vehicle_number", 22)
-
 		err := dao.Carinfo.Ctx(ctx).Order(dao.Carinfo.Columns().VehicleNumber).Scan(&v)
 		liberr.ErrIsNil(ctx, err, "车辆信息获取失败")
-
+		value = v
 		g.Log().Header(false).Print(ctx, v)
 
 	})

@@ -10,12 +10,14 @@ import (
 
 // Eventmax is the golang structure for table eventmax.
 type Eventmax struct {
-	EventId          string      `json:"eventId"          description:"事件id"`
+	EventId          int         `json:"eventId"          description:"事件id"`
 	EventTime        *gtime.Time `json:"eventTime"        description:"事件发生日期/时间"`
-	TriggerType      string      `json:"triggerType"      description:"事件触发方式"`
 	EventType        string      `json:"eventType"        description:"事件类型"`
 	EventDescription string      `json:"eventDescription" description:"事件描述"`
 	StartTime        *gtime.Time `json:"startTime"        description:"切片数据开始时间"`
 	Duration         int         `json:"duration"         description:"切片数据的持续时间(s)"`
+	TriggerType      string      `json:"triggerType"      description:"事件触发方式"`
+	SliceUrl         string      `json:"sliceUrl"         description:"slice数据地址"`
 	VehicleNumber    string      `json:"vehicleNumber"    description:"车辆编号"`
+	VehicleModel     string      `json:"vehicleModel"     description:"车辆型号"`
 }

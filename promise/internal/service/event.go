@@ -12,7 +12,6 @@ import (
 
 type IEvent interface {
 	AddEvent(ctx context.Context, req *v1.EventAddReq) (err error)
-	AddEventByChannel(ctx context.Context, req *v1.EventBaseReq) (err error)
 	GetWeekEventListFromDb(ctx context.Context) (value interface{}, err error)
 	GetWeekEventListFromCache(ctx context.Context) (list []*model.EventListItem, err error)
 }

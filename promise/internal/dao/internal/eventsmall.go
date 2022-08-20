@@ -22,24 +22,28 @@ type EventsmallDao struct {
 type EventsmallColumns struct {
 	EventId          string // 事件id
 	EventTime        string // 事件发生日期/时间
-	TriggerType      string // 事件触发方式
 	EventType        string // 事件类型
 	EventDescription string // 事件描述
 	StartTime        string // 切片数据开始时间
 	Duration         string // 切片数据的持续时间(s)
+	TriggerType      string // 事件触发方式
+	SliceUrl         string // slice数据地址
 	VehicleNumber    string // 车辆编号
+	VehicleModel     string // 车辆型号
 }
 
 //  eventsmallColumns holds the columns for table eventsmall.
 var eventsmallColumns = EventsmallColumns{
 	EventId:          "eventId",
 	EventTime:        "event_time",
-	TriggerType:      "trigger_type",
 	EventType:        "event_type",
 	EventDescription: "event_description",
 	StartTime:        "start_time",
 	Duration:         "duration",
+	TriggerType:      "trigger_type",
+	SliceUrl:         "slice_url",
 	VehicleNumber:    "vehicle_number",
+	VehicleModel:     "vehicle_model",
 }
 
 // NewEventsmallDao creates and returns a new DAO object for table data access.

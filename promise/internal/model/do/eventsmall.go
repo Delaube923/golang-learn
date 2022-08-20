@@ -14,10 +14,12 @@ type Eventsmall struct {
 	g.Meta           `orm:"table:eventsmall, do:true"`
 	EventId          interface{} // 事件id
 	EventTime        *gtime.Time // 事件发生日期/时间
-	TriggerType      interface{} // 事件触发方式
 	EventType        interface{} // 事件类型
 	EventDescription interface{} // 事件描述
 	StartTime        *gtime.Time // 切片数据开始时间
 	Duration         interface{} // 切片数据的持续时间(s)
+	TriggerType      interface{} // 事件触发方式
+	SliceUrl         interface{} // slice数据地址
 	VehicleNumber    interface{} // 车辆编号
+	VehicleModel     interface{} // 车辆型号
 }

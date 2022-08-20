@@ -1,0 +1,640 @@
+2022-08-20 10:42:25.654 [DEBU] {144277d85ced0c176eaa40186ace8eee} [ 35 ms] [default] [rows:8  ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 10:42:25.685 [DEBU] {144277d85ced0c176eaa40186ace8eee} [ 30 ms] [default] [rows:2  ] SELECT `vehicle_number`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 10:44:11.116 [DEBU] {14b84b6675ed0c175d621b72ccf3d42e} [ 40 ms] [default] [rows:8  ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 10:44:11.154 [DEBU] {14b84b6675ed0c175d621b72ccf3d42e} [ 36 ms] [default] [rows:2  ] SELECT `vehicle_number`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 10:45:05.958 [DEBU] {08f6652b82ed0c17ca750f27f7b39ad3} [ 35 ms] [default] [rows:8  ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 10:45:05.997 [DEBU] {08f6652b82ed0c17ca750f27f7b39ad3} [ 39 ms] [default] [rows:2  ] SELECT `vehicle_number`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 10:53:10.948 [DEBU] {c8e4be16f3ed0c17e7c572746515a715} [ 40 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 10:53:11.009 [DEBU] {c8e4be16f3ed0c17e7c572746515a715} [ 60 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 10:54:04.819 [DEBU] {109be8a0ffed0c176341e650658dcef9} [ 54 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 10:54:04.858 [DEBU] {109be8a0ffed0c176341e650658dcef9} [ 36 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 11:11:56.551 [DEBU] {18333429f9ee0c17fa7e43695bf4394d} [ 52 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:11:56.599 [DEBU] {18333429f9ee0c17fa7e43695bf4394d} [ 45 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 11:17:52.119 [DEBU] {0c52ebf24bef0c174fe219337d60f494} [ 49 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:17:52.161 [DEBU] {0c52ebf24bef0c174fe219337d60f494} [ 41 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time` desc
+2022-08-20 11:19:42.756 [DEBU] {64d37bb565ef0c17fc67440762a42dec} [ 46 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:19:42.799 [DEBU] {64d37bb565ef0c17fc67440762a42dec} [ 42 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:20:22.982 [DEBU] {3c466f136fef0c17a58e21329a3aed08} [ 41 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:20:23.020 [DEBU] {3c466f136fef0c17a58e21329a3aed08} [ 38 ms] [default] [rows:2  ] SELECT * FROM `eventsmall`
+2022-08-20 11:20:38.016 [DEBU] {e87d4e9372ef0c17f5532d504f1dbab4} [ 46 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:20:38.058 [DEBU] {e87d4e9372ef0c17f5532d504f1dbab4} [ 40 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:21:11.254 [DEBU] {3c9dc5507aef0c170e6aeb08c5b88630} [ 39 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:21:11.291 [DEBU] {3c9dc5507aef0c170e6aeb08c5b88630} [ 36 ms] [default] [rows:2  ] SELECT `vehicle_number`,`vehicle_model`,`trigger_type`,`event_time`,`event_type`,`event_description`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:22:14.489 [DEBU] {c0ba890989ef0c1785ad5049af07bed7} [ 46 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:22:14.530 [DEBU] {c0ba890989ef0c1785ad5049af07bed7} [ 40 ms] [default] [rows:2  ] SELECT `event_time`,`event_type`,`event_description`,`start_time`,`duration`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:30:04.844 [DEBU] {14fda68df6ef0c17905dae7a87e0d865} [ 34 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:30:04.880 [DEBU] {14fda68df6ef0c17905dae7a87e0d865} [ 35 ms] [default] [rows:2  ] SELECT `event_time`,`event_type`,`event_description`,`start_time`,`duration`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:31:14.499 [DEBU] {ac55cec406f00c17d85999487b59bcfe} [ 44 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:31:14.533 [DEBU] {ac55cec406f00c17d85999487b59bcfe} [ 34 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:31:43.081 [DEBU] {9016cb6c0df00c17d21f41789a6c3034} [ 38 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:31:43.120 [DEBU] {9016cb6c0df00c17d21f41789a6c3034} [ 38 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:33:53.275 [DEBU] {405a14bc2bf00c17a8827b35d952731a} [ 50 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:33:53.325 [DEBU] {405a14bc2bf00c17a8827b35d952731a} [ 49 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:34:51.781 [DEBU] {54a8be5b39f00c179def55434adaf49e} [ 45 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:34:51.832 [DEBU] {54a8be5b39f00c179def55434adaf49e} [ 50 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:35:24.108 [DEBU] {6410d6e240f00c1718085d1e321d4c28} [ 39 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:35:24.153 [DEBU] {6410d6e240f00c1718085d1e321d4c28} [ 45 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:40:03.513 [DEBU] {1c3299f081f00c1771cb4b3e74d7f441} [ 42 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:40:03.552 [DEBU] {1c3299f081f00c1771cb4b3e74d7f441} [ 39 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:40:47.865 [DEBU] {58b4d3428cf00c17f1fa721b4b864409} [ 60 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:40:47.936 [DEBU] {58b4d3428cf00c17f1fa721b4b864409} [ 71 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:41:28.378 [DEBU] {284e96b295f00c17223784063e7bf295} [ 48 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:41:28.419 [DEBU] {284e96b295f00c17223784063e7bf295} [ 40 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:42:45.747 [DEBU] {b0cb98b6a7f00c17010fad3f91a3a186} [ 40 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:42:45.783 [DEBU] {b0cb98b6a7f00c17010fad3f91a3a186} [ 35 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:43:04.855 [DEBU] {089a2329acf00c1792209e3ffd412425} [ 47 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:43:04.891 [DEBU] {089a2329acf00c1792209e3ffd412425} [ 35 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:44:42.762 [DEBU] {d46cabf5c2f00c1751add5120fa33bdf} [ 33 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:44:42.824 [DEBU] {d46cabf5c2f00c1751add5120fa33bdf} [ 62 ms] [default] [rows:2  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 11:54:17.366 [DEBU] {2ce4aabe48f10c1767954213d22d7f28} [ 34 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 11:54:17.410 [ERRO] {5cb7d2c048f10c176895421300d4b5ec} [ 42 ms] [default] [rows:0  ] SHOW FULL COLUMNS FROM 
+Error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:63
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:155
+5.  promise/internal/model.(*DriverMysql).TableFields.func1
+    D:/work/promise/promise/internal/model/mysqldriver.go:178
+6.  github.com/gogf/gf/v2/container/gmap.(*AnyAnyMap).doSetWithLockCheck
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/container/gmap/gmap_hash_any_any_map.go:221
+7.  github.com/gogf/gf/v2/container/gmap.(*AnyAnyMap).GetOrSetFuncLock
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/container/gmap/gmap_hash_any_any_map.go:258
+8.  promise/internal/model.(*DriverMysql).TableFields
+    D:/work/promise/promise/internal/model/mysqldriver.go:168
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).TableFields
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_utility.go:41
+10. github.com/gogf/gf/v2/database/gdb.(*Model).getSoftFieldName
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_time.go:98
+11. github.com/gogf/gf/v2/database/gdb.(*Model).getSoftFieldNameCreated
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_time.go:50
+12. github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:253
+13. github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+14. promise/internal/logic/event.(*sEvent).AddEvent.func1.1
+    D:/work/promise/promise/internal/logic/event/event.go:46
+15. github.com/gogf/gf/v2/util/gutil.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:39
+16. github.com/gogf/gf/v2/frame/g.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/frame/g/g_func.go:67
+17. promise/internal/logic/event.(*sEvent).AddEvent.func1
+    D:/work/promise/promise/internal/logic/event/event.go:33
+18. github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_transaction.go:108
+19. promise/internal/logic/event.(*sEvent).AddEvent
+    D:/work/promise/promise/internal/logic/event/event.go:32
+20. promise/internal/controller.(*cEvent).AddEvent
+    D:/work/promise/promise/internal/controller/event.go:36
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:151
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:74
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+27. promise/internal/service.(*sMiddleware).MiddlewareCORS
+    D:/work/promise/promise/internal/service/middleware.go:88
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+33. promise/internal/service.(*sMiddleware).I18NMiddleware
+    D:/work/promise/promise/internal/service/middleware.go:48
+34. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+35. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+36. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+37. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+38. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+39. promise/internal/service.(*sMiddleware).Ctx
+    D:/work/promise/promise/internal/service/middleware.go:98
+40. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+41. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+42. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+43. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+44. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+45. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+46. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+47. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+48. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+49. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+50. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+51. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-20 11:54:17.464 [ERRO] {3c53ccc348f10c176995421355ad19db} [ 47 ms] [default] [rows:0  ] SHOW FULL COLUMNS FROM 
+Error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:63
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:155
+5.  promise/internal/model.(*DriverMysql).TableFields.func1
+    D:/work/promise/promise/internal/model/mysqldriver.go:178
+6.  github.com/gogf/gf/v2/container/gmap.(*AnyAnyMap).doSetWithLockCheck
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/container/gmap/gmap_hash_any_any_map.go:221
+7.  github.com/gogf/gf/v2/container/gmap.(*AnyAnyMap).GetOrSetFuncLock
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/container/gmap/gmap_hash_any_any_map.go:258
+8.  promise/internal/model.(*DriverMysql).TableFields
+    D:/work/promise/promise/internal/model/mysqldriver.go:168
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).TableFields
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_utility.go:41
+10. github.com/gogf/gf/v2/database/gdb.(*Model).getSoftFieldName
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_time.go:98
+11. github.com/gogf/gf/v2/database/gdb.(*Model).getSoftFieldNameUpdated
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_time.go:71
+12. github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:254
+13. github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+14. promise/internal/logic/event.(*sEvent).AddEvent.func1.1
+    D:/work/promise/promise/internal/logic/event/event.go:46
+15. github.com/gogf/gf/v2/util/gutil.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:39
+16. github.com/gogf/gf/v2/frame/g.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/frame/g/g_func.go:67
+17. promise/internal/logic/event.(*sEvent).AddEvent.func1
+    D:/work/promise/promise/internal/logic/event/event.go:33
+18. github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_transaction.go:108
+19. promise/internal/logic/event.(*sEvent).AddEvent
+    D:/work/promise/promise/internal/logic/event/event.go:32
+20. promise/internal/controller.(*cEvent).AddEvent
+    D:/work/promise/promise/internal/controller/event.go:36
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:151
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:74
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+27. promise/internal/service.(*sMiddleware).MiddlewareCORS
+    D:/work/promise/promise/internal/service/middleware.go:88
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+33. promise/internal/service.(*sMiddleware).I18NMiddleware
+    D:/work/promise/promise/internal/service/middleware.go:48
+34. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+35. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+36. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+37. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+38. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+39. promise/internal/service.(*sMiddleware).Ctx
+    D:/work/promise/promise/internal/service/middleware.go:98
+40. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+41. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+42. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+43. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+44. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+45. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+46. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+47. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+48. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+49. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+50. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+51. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-20 11:54:17.522 [ERRO] {ccd48ec748f10c176a954213ee368871} [ 40 ms] [default] [rows:0  ] SHOW FULL COLUMNS FROM 
+Error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:63
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:155
+5.  promise/internal/model.(*DriverMysql).TableFields.func1
+    D:/work/promise/promise/internal/model/mysqldriver.go:178
+6.  github.com/gogf/gf/v2/container/gmap.(*AnyAnyMap).doSetWithLockCheck
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/container/gmap/gmap_hash_any_any_map.go:221
+7.  github.com/gogf/gf/v2/container/gmap.(*AnyAnyMap).GetOrSetFuncLock
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/container/gmap/gmap_hash_any_any_map.go:258
+8.  promise/internal/model.(*DriverMysql).TableFields
+    D:/work/promise/promise/internal/model/mysqldriver.go:168
+9.  github.com/gogf/gf/v2/database/gdb.(*Core).mappingAndFilterData
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_structure.go:254
+10. github.com/gogf/gf/v2/database/gdb.(*Model).doMappingAndFilterForInsertOrUpdateDataMap
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_utility.go:122
+11. github.com/gogf/gf/v2/database/gdb.(*Model).filterDataForInsertOrUpdate
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_utility.go:111
+12. github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:256
+13. github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+14. promise/internal/logic/event.(*sEvent).AddEvent.func1.1
+    D:/work/promise/promise/internal/logic/event/event.go:46
+15. github.com/gogf/gf/v2/util/gutil.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:39
+16. github.com/gogf/gf/v2/frame/g.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/frame/g/g_func.go:67
+17. promise/internal/logic/event.(*sEvent).AddEvent.func1
+    D:/work/promise/promise/internal/logic/event/event.go:33
+18. github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_transaction.go:108
+19. promise/internal/logic/event.(*sEvent).AddEvent
+    D:/work/promise/promise/internal/logic/event/event.go:32
+20. promise/internal/controller.(*cEvent).AddEvent
+    D:/work/promise/promise/internal/controller/event.go:36
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:151
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:74
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+27. promise/internal/service.(*sMiddleware).MiddlewareCORS
+    D:/work/promise/promise/internal/service/middleware.go:88
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+33. promise/internal/service.(*sMiddleware).I18NMiddleware
+    D:/work/promise/promise/internal/service/middleware.go:48
+34. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+35. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+36. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+37. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+38. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+39. promise/internal/service.(*sMiddleware).Ctx
+    D:/work/promise/promise/internal/service/middleware.go:98
+40. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+41. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+42. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+43. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+44. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+45. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+46. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+47. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+48. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+49. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+50. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+51. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-20 11:54:17.538 [DEBU] {2ce4aabe48f10c1767954213d22d7f28} [  7 ms] [default] [rows:0  ] [txid:1] COMMIT
+2022-08-20 11:57:03.614 [DEBU] {1862d8736ff10c17d6c7ca20cf21d036} [ 34 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 11:57:03.624 [DEBU] {1862d8736ff10c17d6c7ca20cf21d036} [  9 ms] [default] [rows:10 ] [txid:1] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 11:57:03.639 [ERRO] {1862d8736ff10c17d6c7ca20cf21d036} [ 13 ms] [default] [rows:0  ] [txid:1] INSERT INTO `eventsmall`(`eventId`) VALUES(6666) 
+Error: Error 1364: Field 'event_time' doesn't have a default value
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  promise/internal/logic/event.(*sEvent).AddEvent.func1.1
+    D:/work/promise/promise/internal/logic/event/event.go:46
+9.  github.com/gogf/gf/v2/util/gutil.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:39
+10. github.com/gogf/gf/v2/frame/g.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/frame/g/g_func.go:67
+11. promise/internal/logic/event.(*sEvent).AddEvent.func1
+    D:/work/promise/promise/internal/logic/event/event.go:33
+12. github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_transaction.go:108
+13. promise/internal/logic/event.(*sEvent).AddEvent
+    D:/work/promise/promise/internal/logic/event/event.go:32
+14. promise/internal/controller.(*cEvent).AddEvent
+    D:/work/promise/promise/internal/controller/event.go:36
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:151
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:74
+19. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+21. promise/internal/service.(*sMiddleware).MiddlewareCORS
+    D:/work/promise/promise/internal/service/middleware.go:88
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+27. promise/internal/service.(*sMiddleware).I18NMiddleware
+    D:/work/promise/promise/internal/service/middleware.go:48
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+33. promise/internal/service.(*sMiddleware).Ctx
+    D:/work/promise/promise/internal/service/middleware.go:98
+34. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+35. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+36. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+37. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+38. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+39. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+40. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+41. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+42. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+43. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+44. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+45. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-20 11:57:03.653 [DEBU] {1862d8736ff10c17d6c7ca20cf21d036} [  7 ms] [default] [rows:0  ] [txid:1] COMMIT
+2022-08-20 13:33:30.114 [DEBU] {305049b9b2f60c174249843b8e9327b4} [ 47 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 13:33:30.128 [DEBU] {305049b9b2f60c174249843b8e9327b4} [ 13 ms] [default] [rows:10 ] [txid:1] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 13:33:30.145 [DEBU] {305049b9b2f60c174249843b8e9327b4} [ 16 ms] [default] [rows:1  ] [txid:1] INSERT INTO `eventsmall`(`eventId`) VALUES(6666) 
+2022-08-20 13:33:30.169 [DEBU] {305049b9b2f60c174249843b8e9327b4} [ 23 ms] [default] [rows:0  ] [txid:1] COMMIT
+2022-08-20 13:56:58.769 [DEBU] {58fff2b2faf70c1766d8b313b39b32dc} [ 60 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 13:56:58.779 [DEBU] {58fff2b2faf70c1766d8b313b39b32dc} [ 10 ms] [default] [rows:10 ] [txid:1] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 13:56:58.802 [DEBU] {58fff2b2faf70c1766d8b313b39b32dc} [ 23 ms] [default] [rows:1  ] [txid:1] INSERT INTO `eventsmall`(`event_description`,`vehicle_number`,`duration`,`trigger_type`,`event_type`,`eventId`) VALUES(0,325,10,'人为触发','超车',8989) 
+2022-08-20 13:56:58.828 [DEBU] {58fff2b2faf70c1766d8b313b39b32dc} [ 25 ms] [default] [rows:0  ] [txid:1] COMMIT
+2022-08-20 14:13:14.267 [DEBU] {e8fe3ad4ddf80c17ff89ef3dbfd6bed3} [ 42 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 14:13:14.289 [DEBU] {e8fe3ad4ddf80c17ff89ef3dbfd6bed3} [ 21 ms] [default] [rows:0  ] [txid:1] ROLLBACK
+2022-08-20 14:15:52.458 [DEBU] {9ca167a902f90c171c38113af7a4227e} [ 38 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 14:15:52.466 [DEBU] {9ca167a902f90c171c38113af7a4227e} [  7 ms] [default] [rows:0  ] [txid:1] ROLLBACK
+2022-08-20 14:16:48.612 [DEBU] {789e23bc0ff90c17b0f23b5e47c6edd0} [ 42 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 14:16:48.622 [DEBU] {789e23bc0ff90c17b0f23b5e47c6edd0} [  9 ms] [default] [rows:10 ] [txid:1] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 14:16:48.642 [ERRO] {789e23bc0ff90c17b0f23b5e47c6edd0} [ 20 ms] [default] [rows:0  ] [txid:1] INSERT INTO `eventsmall`(`eventId`) VALUES(6666) 
+Error: Error 1062: Duplicate entry '6666' for key 'eventsmall.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  promise/internal/logic/event.(*sEvent).AddEvent.func1.1
+    D:/work/promise/promise/internal/logic/event/event.go:57
+9.  github.com/gogf/gf/v2/util/gutil.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:39
+10. github.com/gogf/gf/v2/frame/g.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/frame/g/g_func.go:67
+11. promise/internal/logic/event.(*sEvent).AddEvent.func1
+    D:/work/promise/promise/internal/logic/event/event.go:33
+12. github.com/gogf/gf/v2/database/gdb.(*Core).Transaction
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_transaction.go:108
+13. promise/internal/logic/event.(*sEvent).AddEvent
+    D:/work/promise/promise/internal/logic/event/event.go:32
+14. promise/internal/controller.(*cEvent).AddEvent
+    D:/work/promise/promise/internal/controller/event.go:37
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:151
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:74
+19. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+21. promise/internal/service.(*sMiddleware).MiddlewareCORS
+    D:/work/promise/promise/internal/service/middleware.go:88
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+27. promise/internal/service.(*sMiddleware).I18NMiddleware
+    D:/work/promise/promise/internal/service/middleware.go:48
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+33. promise/internal/service.(*sMiddleware).Ctx
+    D:/work/promise/promise/internal/service/middleware.go:98
+34. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+35. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+36. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+37. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+38. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+39. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+40. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+41. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+42. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+43. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+44. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+45. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-20 14:16:48.665 [DEBU] {789e23bc0ff90c17b0f23b5e47c6edd0} [ 10 ms] [default] [rows:0  ] [txid:1] COMMIT
+2022-08-20 14:17:53.652 [DEBU] {882dc4e01ef90c171e00a07a032e0e12} [ 41 ms] [default] [rows:0  ] [txid:1] BEGIN
+2022-08-20 14:17:53.664 [DEBU] {882dc4e01ef90c171e00a07a032e0e12} [ 11 ms] [default] [rows:10 ] [txid:1] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 14:17:53.682 [DEBU] {882dc4e01ef90c171e00a07a032e0e12} [ 18 ms] [default] [rows:1  ] [txid:1] INSERT INTO `eventsmall`(`trigger_type`,`event_description`,`event_type`,`eventId`,`vehicle_number`,`duration`) VALUES('人为触发',0,'碰撞',778412,325,10) 
+2022-08-20 14:17:53.711 [DEBU] {882dc4e01ef90c171e00a07a032e0e12} [ 18 ms] [default] [rows:0  ] [txid:1] COMMIT
+2022-08-20 14:21:27.255 [DEBU] {a8727ae729f90c178ae88b0bb538dcc2} [ 69 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 14:21:27.314 [DEBU] {a8727ae729f90c178ae88b0bb538dcc2} [ 57 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`duration`,`vehicle_number`,`event_time`,`start_time`,`slice_url`,`event_type`,`event_description`,`trigger_type`,`vehicle_model`,`eventId`) VALUES(20,'001','1970-01-01 08:00:00','1970-01-01 08:02:03','','超车','低级别风险','自动','X3S','') 
+2022-08-20 14:27:29.055 [DEBU] {8061fad9a4f90c178de88b0bbc612634} [ 36 ms] [default] [rows:6  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`start_time`,`duration`,`slice_url`,`trigger_type`,`vehicle_number`,`vehicle_model` FROM `eventsmall` ORDER BY `event_time`
+2022-08-20 14:36:59.397 [DEBU] {44fadd7824fa0c17d6eaf0339cdc9308} [ 44 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 14:36:59.457 [ERRO] {44fadd7824fa0c17d6eaf0339cdc9308} [ 59 ms] [default] [rows:0  ] INSERT INTO `eventsmall`(`eventId`,`slice_url`,`event_description`,`start_time`,`trigger_type`,`duration`,`vehicle_number`,`event_time`,`vehicle_model`,`event_type`) VALUES('','','低级别风险','1970-01-01 08:02:03','自动',20,'001','1970-01-01 08:00:00','X3S','超车') 
+Error: Error 1366: Incorrect integer value: '' for column 'eventId' at row 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onEvent
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:123
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:61
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-20 14:42:21.060 [DEBU] {888de56d69fa0c1745933466178506e9} [ 41 ms] [default] [rows:10 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-20 14:42:21.131 [DEBU] {888de56d69fa0c1745933466178506e9} [ 70 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`event_type`,`eventId`,`trigger_type`,`duration`,`vehicle_number`,`vehicle_model`,`event_time`,`start_time`,`event_description`,`slice_url`) VALUES('超车',0,'自动',20,'001','X3S','1970-01-01 08:00:00','1970-01-01 08:02:03','低级别风险','') 

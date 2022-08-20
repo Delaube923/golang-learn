@@ -31,16 +31,16 @@ type EventListOutputItem struct {
 
 // 列表信息
 type EventListItem struct {
-	VehicleNumber    string      `json:"vehicle_number"   description:"车辆编号"`
-	VehicleModel     string      `json:"vehicle_model"   description:"车辆类型"`
-	Id               string      `json:"eventId" description:"事件id"`
-	TriggerType      string      `json:"TriggerType" description:"触发类型"`
+	EventId          int         `json:"eventId" description:"事件id"`
 	EventTime        *gtime.Time `json:"eventTime" description:"事件发生日期/时间"`
 	EventType        string      `json:"eventType" description:"事件类型"`
 	EventDescription string      `json:"eventDescription" description:"事件描述"`
 	StartTime        *gtime.Time `json:"startTime"  description:"切片数据开始时间"`
 	Duration         int         `json:"duration" description:"切片数据的持续时间(s)"`
-	SliceOssUrl      string      `json:"sliceUrl"      description:"切片存储地址"`
+	SliceUrl         string      `json:"sliceUrl"      description:"切片存储地址"`
+	TriggerType      string      `json:"TriggerType" description:"触发类型"`
+	VehicleNumber    string      `json:"vehicleNumber"   description:"车辆编号"`
+	VehicleModel     string      `json:"vehicleModel"   description:"车辆类型"`
 }
 
 // 添加事件

@@ -4,6 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
+	"fmt"
+	"promise/internal/dao"
 	"promise/internal/model"
 	"promise/utility/utils"
 
@@ -113,8 +115,14 @@ func (c *cVechicleCommandController) onEvent(conn *VechicleConn, data *map[strin
 				EventDescription: utils.Interface2String(slice_detail["event_description"]),
 				StartTime:        gtime.NewFromTime(starttime),
 				Duration:         int(utils.Interface2Int64(slice_detail["duration"])),
-				SliceOssUrl:      utils.Interface2String((*data)["slice_url"]),
+				// SliceUrl:         utils.Interface2String((*data)["slice_url"]),
 			}
+
+			g.Log().Print(conn.ctx, event)
+			fmt.Print("websocket_test......")
+			_, e := dao.Eventsmall.Ctx(conn.ctx).Insert(event)
+			g.Log().Print(conn.ctx, e)
+
 			// conn.events = append(conn.events, event)
 			VechicleEventChannel <- event
 			g.Log().Print(conn.ctx, VechicleEventChannel)
@@ -135,5 +143,6 @@ func (c *cVechicleCommandController) SendMessage(ctx context.Context, messageTyp
 	g.Log().Print(ctx, "SendMessage")
 	// if err = client_conn.WriteMessage(messageType, msg); err != nil {
 	// 	return
+	//nothing changed
 	// }
 }

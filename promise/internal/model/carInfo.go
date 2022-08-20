@@ -32,5 +32,5 @@ type CarInfoListItem struct {
 	SliceUrl      string `json:"sliceUrl"      description:"切片存储地址"`
 	SliceSize     int    `json:"sliceSize"     description:"切片大小"`
 	SliceMd5      string `json:"sliceMd5"      description:"切片md5值"`
-	EventId       string `json:"eventId"       description:"事件id"`
+	EventId       int    `json:"eventId"       description:"事件id"`
 }
