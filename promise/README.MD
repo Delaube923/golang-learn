@@ -1,10 +1,8 @@
-# GoFrame Template For SingleRepo
+# promise
 
-Project Makefile Commands: 
-- `make cli`: Install or Update to the latest GoFrame CLI tool.
-- `make dao`: Generate go files for `Entity/DAO/DO` according to the configuration file from `hack` folder.
-- `make service`: Parse `logic` folder to generate interface go files into `service` folder.
-- `make image TAG=xxx`: Run `docker build` to build image according `manifest/docker`.
-- `make image.push TAG=xxx`: Run `docker build` and `docker push` to build and push image according `manifest/docker`.
-- `make deploy TAG=xxx`: Run `kustomize build` to build and deploy deployment to kubernetes server group according `manifest/deploy`.
---sql文件在manifest\document\dataloop.sql
+数据闭环后端
+
+
+promise：无极， 代表没有终点，没有尽头
+
+电影《无极》 the promise

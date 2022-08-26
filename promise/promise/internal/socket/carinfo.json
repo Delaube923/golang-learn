@@ -1,0 +1,23 @@
+{
+    "token": "0x12345678",
+    "id": 1,
+    "data": {
+        "vehicle_number": "001",
+        "vehicle_modle": "X3S",
+        "vehicle_frame_number":"Y1099",
+        "vehicle_usage":"清洁车",
+        "vehicle_region":"上海",
+        "version": "1.0.2",  
+        "softs": [
+            {
+                "name":"hmi",
+                "version":"1.1.2"
+            },
+            {
+                "name":"tbox",
+                "version":"1.2.2"
+            }
+
+        ]
+    }
+}
