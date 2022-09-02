@@ -12,10 +12,10 @@ import (
 	"promise/internal/service"
 	commonService "promise/internal/service"
 
+	"github.com/gogf/gf/util/gconv"
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gtime"
-	"github.com/gogf/gf/v2/util/gconv"
 )
 
 type sEvent struct{}
@@ -43,15 +43,11 @@ func (s *sEvent) AddEvent(ctx context.Context, req *v1.EventAddReq) (err error) 
 				TriggerType:      req.TriggerType,
 				VehicleNumber:    req.VehicleNumber,
 				VehicleModel:     req.VehicleModel,
+				SliceUrl:         req.SliceUrl,
+				SliceSize:        req.SliceSize,
+				SliceName:        req.SliceName,
+				SliceMd5:         req.SliceMd5,
 			}
-			// data := do.Eventsmall{
-			// 	EventId:          8989,
-			// 	VehicleNumber:    0505,
-			// 	TriggerType:      "人为触发",
-			// 	EventType:        "超车",
-			// 	EventDescription: 0,
-			// 	Duration:         10,
-			// }
 			EventId, e := dao.Eventsmall.Ctx(ctx).TX(tx).InsertAndGetId(data)
 			liberr.ErrIsNil(ctx, e, "添加事件失败")
 			print(EventId)
@@ -85,13 +81,81 @@ func (s *sEvent) GetWeekEventListFromDb(ctx context.Context) (value interface{},
 
 // 从缓存获取最近事件
 func (s *sEvent) GetWeekEventListFromCache(ctx context.Context) (list []*model.EventListItem, err error) {
-	cache := commonService.Cache()
-	iList := cache.GetOrSetFuncLock(ctx, consts.CacheSysEvent, s.GetWeekEventListFromDb, 0, consts.CacheSysAuthTag)
+	// cache := commonService.Cache()
+	// iList := cache.GetOrSetFuncLock(ctx, consts.CacheSysEvent, s.GetWeekEventListFromDb, 0, consts.CacheSysAuthTag)
+
+	iList, err := s.GetWeekEventListFromDb(ctx)
 	if iList != nil {
 		err = gconv.Struct(iList, &list)
 		liberr.ErrIsNil(ctx, err)
 	}
-	// g.Log().Print(ctx, iList)
-	// fmt.Println(11111111111)
+
+	return
+}
+
+// 条件查询(模糊查询)
+func (s *sEvent) GetWeekEventListSearch(ctx context.Context, req *v1.EventSearchReq) (res []*model.EventListItem, err error) {
+	err = g.Try(func() {
+		m := dao.Eventsmall.Ctx(ctx)
+		//时间 Y-m-d H:i:s
+		if req.EventTime != nil {
+			m = m.Where("event_time like ?", "%"+req.EventTime.Format("Y-m-d H:i:s")+"%")
+		}
+		//时间范围查询
+		if len(req.DateRange) > 0 {
+			m = m.Where("event_time >=? AND event_time <=?", req.DateRange[0], req.DateRange[1])
+		}
+		//车号
+		if req.VehicleNumber != "" {
+			m = m.Where("vehicle_number like ?", "%"+req.VehicleNumber+"%")
+		}
+		err = m.Fields(model.EventListItem{}).Scan(&res)
+		liberr.ErrIsNil(ctx, err, "查询事件失败")
+	})
+	return
+}
+
+// 从月表查询
+func (s *sEvent) GetMonthEventListSearch(ctx context.Context, req *v1.EventSearchReq) (res []*model.EventListItem, err error) {
+	err = g.Try(func() {
+		m := dao.Eventmiddle.Ctx(ctx)
+		//
+
+		if req.EventTime != nil {
+			m = m.Where("event_time like ?", "%"+req.EventTime.Format("Y-m-d H:i:s")+"%")
+		}
+		//时间范围查询
+		if len(req.DateRange) > 0 {
+			m = m.Where("event_time >=? AND event_time <=?", req.DateRange[0], req.DateRange[1])
+		}
+		//车号
+		if req.VehicleNumber != "" {
+			m = m.Where("vehicle_number like ?", "%"+req.VehicleNumber+"%")
+		}
+		err = m.Fields(model.EventListItem{}).Scan(&res)
+		liberr.ErrIsNil(ctx, err, "查询事件失败")
+	})
+	return
+}
+
+// 从总表查询
+func (s *sEvent) GetGeneralEventListSearch(ctx context.Context, req *v1.EventSearchReq) (res []*model.EventListItem, err error) {
+	err = g.Try(func() {
+		m := dao.Eventmax.Ctx(ctx)
+		//时间
+		if req.EventTime != nil {
+			m = m.Where("event_time like ?", "%"+req.EventTime.Format("Y-m-d H:i:s")+"%")
+		}
+		//时间范围查询
+		if len(req.DateRange) > 0 {
+			m = m.Where("event_time >=? AND event_time <=?", req.DateRange[0], req.DateRange[1])
+		}
+		//车号
+		if req.VehicleNumber != "" {
+			m = m.Where("vehicle_number like ?", "%"+req.VehicleNumber+"%")
+		}
+		err = m.Fields(model.EventListItem{}).Scan(&res)
+		liberr.ErrIsNil(ctx, err, "查询事件失败")
+	})
 	return
 }

@@ -20,30 +20,24 @@ type CarinfoDao struct {
 
 // CarinfoColumns defines and stores column names for table carinfo.
 type CarinfoColumns struct {
-	VehicleNumber string // 车辆编号
-	VehicleModel  string // 车辆型号
-	SliceUrl      string // 切片存储地址
-	SliceName     string // 切片名称
-	SliceSize     string // 切片大小
-	SliceMd5      string // 切片md5值
-	EventId       string // 事件id
-	Vin           string // 车架号
-	VehicleUse    string // 车辆用途
-	VehicleArea   string // 所属地区
+	VehicleNumber      string // 车辆编号
+	VehicleModel       string // 车辆型号
+	VehicleFrameNumber string // 车架号
+	VehicleUsage       string // 车辆用途
+	VehicleRegion      string // 所属地区
+	Version            string // 大版本号
+	Status             string // 车辆状态
 }
 
 //  carinfoColumns holds the columns for table carinfo.
 var carinfoColumns = CarinfoColumns{
-	VehicleNumber: "vehicle_number",
-	VehicleModel:  "vehicle_model",
-	SliceUrl:      "slice_url",
-	SliceName:     "slice_name",
-	SliceSize:     "slice_size",
-	SliceMd5:      "slice_md5",
-	EventId:       "eventId",
-	Vin:           "vin",
-	VehicleUse:    "vehicle_use",
-	VehicleArea:   "vehicle_area",
+	VehicleNumber:      "vehicle_number",
+	VehicleModel:       "vehicle_model",
+	VehicleFrameNumber: "vehicle_frame_number",
+	VehicleUsage:       "vehicle_usage",
+	VehicleRegion:      "vehicle_region",
+	Version:            "version",
+	Status:             "status",
 }
 
 // NewCarinfoDao creates and returns a new DAO object for table data access.

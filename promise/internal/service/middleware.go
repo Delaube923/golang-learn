@@ -50,16 +50,18 @@ func (s *sMiddleware) I18NMiddleware(r *ghttp.Request) {
 
 // 返回处理中间件
 func (s *sMiddleware) ResponseHandler(r *ghttp.Request) {
-
+	r.Middleware.Next()
 	// 如果已经有返回内容，那么该中间件什么也不做
 	if r.Response.BufferLength() > 0 {
-		g.Log().Warningf(r.GetCtx(), "response exists something, skip ResponseHandler middleware")
-		return
+		// g.Log().Warningf(r.GetCtx(), "response exists something, skip ResponseHandler middleware")
+		// return
+		r.Response.ClearBuffer()
 	}
+
 	//res, err := r.GetHandlerResponse()
 	//formatResponse(r, res, err)
 	formatResponse(r, r.GetHandlerResponse(), r.GetError())
-	r.Middleware.Next()
+
 }
 
 func formatResponse(r *ghttp.Request, res interface{}, err error) {
@@ -94,7 +96,6 @@ func (s *sMiddleware) Ctx(r *ghttp.Request) {
 		Data: make(g.Map),
 	}
 	Context().Init(r, customCtx)
-
 	r.Middleware.Next()
 }
 

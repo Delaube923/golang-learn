@@ -1,0 +1,812 @@
+2022-08-24 09:08:59.516 [DEBU] {34442bd495220e17cfa72f6cbc317800} [ 65 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 09:08:59.573 [DEBU] {34442bd495220e17cfa72f6cbc317800} [ 56 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 09:27:23.127 [DEBU] {98d9b2c996230e176792da213afeee1b} [ 45 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 09:27:23.170 [DEBU] {98d9b2c996230e176792da213afeee1b} [ 42 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 09:27:30.007 [DEBU] {04409b6298230e176892da2119eeab24} [ 65 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 09:27:32.972 [DEBU] {48b67f1399230e176992da21426893d3} [ 62 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:19:57.675 [DEBU] {08fe1e4275260e171734734c157cca95} [ 65 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 10:19:57.717 [DEBU] {08fe1e4275260e171734734c157cca95} [ 41 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:27:47.238 [DEBU] {f05e1397e2260e17ca2e68292729424e} [ 52 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 10:27:47.285 [DEBU] {f05e1397e2260e17ca2e68292729424e} [ 46 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:28:56.352 [DEBU] {6c862eaff2260e17cb2e682987e9cbc5} [ 42 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:29:57.227 [DEBU] {dc4d21db00270e17cc2e6829de4a89ec} [ 51 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:29:57.613 [DEBU] {948f62f000270e17cd2e68290e338f0c} [ 80 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:01.825 [DEBU] {183ab4ec01270e17ce2e6829119f47df} [ 60 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:03.685 [DEBU] {5cbdfa5b02270e17cf2e68298b59cf62} [ 53 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:07.195 [DEBU] {548f8b2803270e17d02e6829c86770ab} [131 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:07.752 [DEBU] {cc306f4e03270e17d12e6829b2df6a00} [ 52 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:08.279 [DEBU] {783f286703270e17d22e6829740e499c} [164 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:08.749 [DEBU] {b446428703270e17d32e6829402ab480} [ 96 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:09.108 [DEBU] {bccc879a03270e17d42e6829cca5f3b2} [131 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:30:09.449 [DEBU] {4c3cdbb003270e17d52e6829d209ce5c} [ 97 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:32:27.847 [DEBU] {082c38ec23270e17d62e6829acc219ca} [ 61 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:32:28.229 [DEBU] {c0ed020224270e17d72e6829e3ab54cb} [ 77 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:32:28.548 [DEBU] {d8b3ac1524270e17d82e6829005da6ea} [ 66 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:32:59.880 [DEBU] {d8ddee602b270e17d92e682982da6f95} [ 70 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:00.229 [DEBU] {084b13772b270e17da2e6829c4ae3f29} [ 48 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:00.519 [DEBU] {145c0c892b270e17db2e682960a883fb} [ 37 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:08.822 [DEBU] {cc867a772d270e17dc2e68293a09fe11} [ 45 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:09.196 [DEBU] {b85f9a8d2d270e17dd2e6829b611f68e} [ 47 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:09.555 [DEBU] {6883caa22d270e17de2e6829bafb4309} [ 51 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:18.973 [DEBU] {a4535ad22f270e17df2e682945882406} [ 80 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:51.660 [DEBU] {b01c677037270e17e02e68290ce473fd} [ 52 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:52.179 [DEBU] {7012fb8f37270e17e12e6829e3c3b22e} [ 41 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:52.545 [DEBU] {6c6957a437270e17e22e6829afee717e} [ 65 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:33:59.607 [DEBU] {3043454939270e17e32e6829ebc1f66f} [ 65 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:34:00.204 [DEBU] {e8b8346d39270e17e42e6829de619c5d} [ 59 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:34:00.577 [DEBU] {d8aa078139270e17e52e6829af001d15} [ 99 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:03.623 [DEBU] {d8df8c3048270e17e62e682931101cac} [ 71 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:04.222 [DEBU] {e0ef045548270e17e72e6829b62cab59} [ 58 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:04.551 [DEBU] {ec994f6848270e17e82e68290bfa6813} [ 64 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:29.050 [DEBU] {c4d5441d4e270e17ea2e682938de860c} [ 52 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:29.050 [DEBU] {545f261d4e270e17e92e6829f5278eb7} [ 54 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:29.543 [DEBU] {c8707e3a4e270e17eb2e682974058440} [ 55 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:33.244 [DEBU] {c0a7e5164f270e17ec2e682957dbebb7} [ 58 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:35:36.744 [DEBU] {f0bf7ae84f270e17ed2e6829011950d2} [ 42 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:36:36.534 [DEBU] {2078fcc05d270e17ee2e68295592b923} [365 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:36:41.762 [DEBU] {f8b63a0b5f270e17ef2e6829fb30ab5b} [ 51 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:36:46.287 [DEBU] {14718d1860270e17f02e68293ab36a62} [ 59 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:37:08.667 [DEBU] {805a244f65270e17f12e6829b722a304} [ 48 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:37:09.242 [DEBU] {68a3786f65270e17f22e682948fd5328} [ 80 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:37:09.305 [DEBU] {90c88e7565270e17f32e6829dc59e7ff} [ 42 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:37:09.531 [DEBU] {c499a98265270e17f42e682922866749} [ 48 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:38:01.493 [DEBU] {d0f4419a71270e17f52e682900723fe2} [ 74 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:38:04.896 [DEBU] {8456b56572270e17f62e682984ad82d8} [ 64 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:38:06.511 [DEBU] {58cd17c772270e17f72e682926b94d45} [ 45 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:38:09.120 [DEBU] {2cb3a86273270e17f82e68297426f056} [ 44 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:41:07.955 [DEBU] {243929039d270e17f92e6829f23f32cf} [ 92 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:41:09.701 [DEBU] {103429679d270e17fa2e6829bc59dba1} [161 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:41:14.894 [DEBU] {d04f14e19d270e17fb2e6829b81c990b} [3309 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:00.898 [DEBU] {945e210a35280e1795f7ec5ac89e002d} [ 83 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 10:52:00.942 [DEBU] {945e210a35280e1795f7ec5ac89e002d} [ 43 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:01.243 [DEBU] {30bded1f35280e1796f7ec5a194e6375} [ 63 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:01.310 [DEBU] {ac36d02435280e1797f7ec5a049de996} [ 48 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:01.539 [DEBU] {709e4b3235280e1798f7ec5a91f91463} [ 49 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:43.354 [DEBU] {2cebd9e63e280e1799f7ec5a254ad1d6} [181 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:44.636 [DEBU] {fc1919353f280e179af7ec5ac519d653} [151 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:44.848 [DEBU] {b44a22483f280e179bf7ec5a1496f01c} [ 44 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:45.207 [DEBU] {a487855d3f280e179cf7ec5acd970f73} [ 44 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:45.291 [DEBU] {98b50a613f280e179df7ec5a3f98a407} [ 69 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:48.326 [DEBU] {b8c3571740280e179ef7ec5a775895bb} [ 46 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:48.602 [DEBU] {6c9ed72640280e179ff7ec5a9daf233e} [ 61 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:49.235 [DEBU] {e4547f4b40280e17a0f7ec5a3339e1fd} [ 79 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:52:49.304 [DEBU] {fc2d1a5140280e17a1f7ec5a0d348333} [ 55 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:53:23.511 [DEBU] {18e9114848280e17a2f7ec5a61b5ec93} [ 53 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:53:23.631 [DEBU] {ccceff4c48280e17a3f7ec5ac06a04e5} [ 91 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:53:24.234 [DEBU] {04cc4b7148280e17a4f7ec5a0bca3283} [ 84 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:53:24.292 [DEBU] {c485217748280e17a5f7ec5aeb09e1ab} [ 45 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:12.575 [DEBU] {e09f3c8e99280e17a6f7ec5aef2d4837} [ 48 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:12.910 [DEBU] {98d3829d99280e17a7f7ec5a91b65f4f} [127 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:13.211 [DEBU] {009461b499280e17a8f7ec5ae055c5a5} [ 44 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:13.276 [DEBU] {acb314b899280e17a9f7ec5a5981396e} [ 46 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:16.026 [DEBU] {9003de559a280e17aaf7ec5a362d7963} [150 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:29.219 [DEBU] {8cbe0d6c9d280e17abf7ec5a7ccc7da7} [ 85 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:29.234 [DEBU] {28d9926c9d280e17acf7ec5af98add4c} [ 92 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:29.580 [DEBU] {049b49819d280e17adf7ec5a749346ce} [ 90 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:30.220 [DEBU] {54ff35a99d280e17aef7ec5afe276920} [ 60 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:30.474 [DEBU] {80a3a6b89d280e17aff7ec5ad25a2a22} [ 55 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:31.093 [DEBU] {f8dbf8dd9d280e17b0f7ec5a032f92a5} [ 47 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:31.591 [DEBU] {a8417df89d280e17b1f7ec5a9e6c9457} [101 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:32.026 [DEBU] {485fc10f9e280e17b2f7ec5a4857bc67} [146 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:32.669 [DEBU] {d85c9f2b9e280e17b3f7ec5a3b44f2e3} [321 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:41.851 [DEBU] {686e275fa0280e17b4f7ec5ad39fe918} [ 49 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:42.237 [DEBU] {9084ec74a0280e17b5f7ec5afb4d1cfd} [ 69 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:42.342 [DEBU] {7827517ba0280e17b6f7ec5a33aba94c} [ 67 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 10:59:42.538 [DEBU] {649b0c88a0280e17b7f7ec5aa4ddf688} [ 49 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:00:00.339 [DEBU] {f0ed60aba4280e17b8f7ec5aa00ab7d2} [ 78 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:00:00.586 [DEBU] {a00859bba4280e17b9f7ec5a7160e570} [ 57 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:00:01.215 [DEBU] {349365e0a4280e17baf7ec5a3ca7cab5} [ 65 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:00:01.285 [DEBU] {0473d9e4a4280e17bbf7ec5a86a45a62} [ 60 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:03:34.671 [DEBU] {0c598c94d6280e17bcf7ec5a14c2777b} [ 44 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:03:35.565 [DEBU] {4803aec8d6280e17bdf7ec5a6dce2cf2} [ 63 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:03:49.488 [DEBU] {2cb28d02da280e17bef7ec5aee53cb8f} [131 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:03:49.657 [DEBU] {248e9f0dda280e17bff7ec5a587cb74c} [115 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:03:52.911 [DEBU] {0cc8aed1da280e17c0f7ec5a59f2411d} [ 79 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:04:07.329 [DEBU] {e40f2b2dde280e17c1f7ec5ae1fb77c1} [ 78 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:04:07.595 [DEBU] {98078f3bde280e17c2f7ec5a663354af} [102 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:14:14.767 [DEBU] {7887db926b290e17c3f7ec5a53d1debf} [219 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:14:14.871 [DEBU] {b0e34ca16b290e17c4f7ec5a255677c6} [ 79 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:15:28.576 [DEBU] {fc8e43c57c290e17c6f7ec5afab8b195} [168 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:15:29.651 [DEBU] {a0b18c0a7d290e17c7f7ec5aa1b0df8e} [ 81 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:15:34.107 [DEBU] {24968ff37d290e17c8f7ec5aab9c4636} [627 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:18:40.680 [DEBU] {dcb14c82a9290e17c9f7ec5a6e4d3378} [121 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:18:40.886 [DEBU] {4c1c1990a9290e17caf7ec5a89bf3542} [ 96 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:45:02.514 [DEBU] {e4c180d3192b0e17dd5ed66bf8cb54c5} [ 44 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 11:45:02.580 [DEBU] {e4c180d3192b0e17dd5ed66bf8cb54c5} [ 65 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:45:02.614 [DEBU] {98aaded8192b0e17de5ed66baba27840} [ 54 ms] [default] [rows:14 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:53:17.480 [DEBU] {2410d596972a0e17da5ed66bb289177d} [137 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`trigger_type`,`slice_md5`,`event_time`,`vehicle_model`,`slice_name`,`slice_size`,`duration`,`slice_url`,`eventId`,`event_type`,`start_time`,`event_description`,`vehicle_number`) VALUES('','c823c3b94084f4c1fc3078ad3740ba9c','2022-08-24 03:52:46','X3S','2022-08-24_11-52-46',4638,16,'http://172.16.0.28:30009/software/DCL/10008/2022-08-24_11-52-46.7z',0,'HMIAction','2022-08-24 03:52:30','','10008') 
+2022-08-24 11:53:57.620 [DEBU] {fc440569962b0e17e05ed66b756fab89} [ 66 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:54:00.754 [DEBU] {0c472e1e972b0e17e15ed66b7fbd4fa2} [162 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 11:54:19.424 [DEBU] {48cfe0209b2b0e17e25ed66ba29bfd22} [1606 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:30:49.732 [DEBU] {84c55ca6df300e17e35ed66bcacdcf90} [ 58 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:00.007 [DEBU] {4cc8350ae2300e17e45ed66be3edbf1e} [ 69 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:01.724 [DEBU] {2cea6c71e2300e17e55ed66b0600509c} [ 55 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:03.908 [DEBU] {7c8e56f2e2300e17e7a0e8762df43812} [ 75 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 13:31:03.959 [DEBU] {7c8e56f2e2300e17e7a0e8762df43812} [ 50 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:05.608 [DEBU] {1c5ea259e3300e17e9a0e8769f2adaaf} [ 42 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:07.597 [DEBU] {f42dfccfe3300e17eaa0e876b86e87d3} [ 46 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:09.825 [DEBU] {f4d91154e4300e17eba0e876eb080d89} [ 58 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:31:10.367 [DEBU] {68488d73e4300e17eca0e87683af6929} [ 72 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:32:56.101 [DEBU] {60b4200efd300e17eda0e876e5293095} [133 ms] [default] [rows:15 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 13:43:36.843 [DEBU] {58719d0182310e17edbc06706efbe4e6} [ 90 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 13:43:36.963 [DEBU] {58719d0182310e17edbc06706efbe4e6} [120 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`trigger_type`,`eventId`,`vehicle_number`,`slice_url`,`event_type`,`slice_name`,`duration`,`slice_md5`,`start_time`,`event_description`,`vehicle_model`,`event_time`,`slice_size`) VALUES('',0,'10008','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_13-42-24.7z','HMIAction','2022-08-24_13-42-24',16,'c5ee4c0d8367bf44ae76fe62f9d45357','2022-08-24 05:42:08','','X3S','2022-08-24 05:42:24',259) 
+2022-08-24 13:45:06.744 [DEBU] {404fb2459f310e173e1b3701e5d653db} [ 88 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 13:45:06.804 [DEBU] {404fb2459f310e173e1b3701e5d653db} [ 59 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`start_time`,`eventId`,`slice_md5`,`event_time`,`slice_name`,`event_type`,`vehicle_model`,`slice_url`,`slice_size`,`duration`,`trigger_type`,`event_description`,`vehicle_number`) VALUES('2022-08-24 05:42:17',0,'99f2374fd080a25566a8ef812b429ac6','2022-08-24 05:42:33','2022-08-24_13-42-33','HMIAction','X3S','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_13-42-33.7z',260,16,'','','10008') 
+2022-08-24 13:45:13.339 [DEBU] {404fb2459f310e173e1b3701e5d653db} [112 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`eventId`,`event_description`,`vehicle_number`,`trigger_type`,`vehicle_model`,`slice_size`,`slice_name`,`start_time`,`slice_url`,`slice_md5`,`duration`,`event_time`,`event_type`) VALUES(0,'','10008','','X3S',261,'2022-08-24_13-44-17','2022-08-24 05:44:01','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_13-44-17.7z','024ae4d135823d681034abd99c35fee1',16,'2022-08-24 05:44:17','HMIAction') 
+2022-08-24 13:45:17.755 [DEBU] {404fb2459f310e173e1b3701e5d653db} [ 66 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`slice_url`,`slice_md5`,`vehicle_number`,`eventId`,`slice_name`,`vehicle_model`,`start_time`,`event_type`,`duration`,`trigger_type`,`slice_size`,`event_time`,`event_description`) VALUES('http://172.16.0.28:30009/software/DCL/10008/2022-08-24_13-44-28.7z','4350326108980d92f6d79a85ca75bd88','10008',0,'2022-08-24_13-44-28','X3S','2022-08-24 05:44:12','HMIAction',16,'',259,'2022-08-24 05:44:28','') 
+2022-08-24 13:51:41.861 [DEBU] {f4a4c914b4310e174554f467fbd0761c} [ 67 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 13:51:41.948 [DEBU] {f4a4c914b4310e174554f467fbd0761c} [ 85 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`duration`,`event_time`,`vehicle_number`,`slice_md5`,`slice_url`,`start_time`,`slice_name`,`event_type`,`event_description`,`trigger_type`,`slice_size`,`eventId`,`vehicle_model`) VALUES(16,'2022-08-24 05:50:51','10008','4284121b94e8a922063c692f31b274a3','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_13-50-51.7z','2022-08-24 05:50:35','2022-08-24_13-50-51','HMIAction','','',260,0,'X3S') 
+2022-08-24 13:51:48.889 [DEBU] {f4a4c914b4310e174554f467fbd0761c} [ 72 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`eventId`,`slice_size`,`slice_md5`,`event_type`,`event_description`,`trigger_type`,`duration`,`vehicle_number`,`slice_url`,`slice_name`,`start_time`,`vehicle_model`,`event_time`) VALUES(0,260,'822099e40059b77fd77b035ee659713c','HMIAction','','',16,'10008','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_13-50-59.7z','2022-08-24_13-50-59','2022-08-24 05:50:43','X3S','2022-08-24 05:50:59') 
+2022-08-24 14:02:27.780 [DEBU] {58a6249199320e17fa8d2b1fe2ac73c1} [ 87 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:02:27.883 [ERRO] {58a6249199320e17fa8d2b1fe2ac73c1} [101 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE eventTime >='2021-03-02' AND eventTime <='2022-04-12'
+Error: Error 1054: Unknown column 'eventTime' in 'where clause'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:63
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:155
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_select.go:547
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_select.go:46
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).All
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_select.go:31
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStructs
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_select.go:282
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_select.go:323
+11. promise/internal/logic/event.(*sEvent).GetWeekEventListSearch.func1
+    D:/work/promise/promise/internal/logic/event/event.go:107
+12. github.com/gogf/gf/v2/util/gutil.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:39
+13. github.com/gogf/gf/v2/frame/g.Try
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/frame/g/g_func.go:67
+14. promise/internal/logic/event.(*sEvent).GetWeekEventListSearch
+    D:/work/promise/promise/internal/logic/event/event.go:98
+15. promise/internal/controller.(*cEvent).SelectEvent
+    D:/work/promise/promise/internal/controller/event.go:40
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:151
+17. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:74
+20. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+22. promise/internal/service.(*sMiddleware).MiddlewareCORS
+    D:/work/promise/promise/internal/service/middleware.go:90
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+24. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+26. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+28. promise/internal/service.(*sMiddleware).I18NMiddleware
+    D:/work/promise/promise/internal/service/middleware.go:48
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+30. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+31. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+32. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+33. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+34. promise/internal/service.(*sMiddleware).Ctx
+    D:/work/promise/promise/internal/service/middleware.go:99
+35. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:54
+36. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+37. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:53
+38. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+39. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+40. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+41. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+42. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+43. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+44. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+45. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+46. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 14:03:49.996 [DEBU] {acf88ab2ac320e17c8e7181bb5be28a3} [138 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:03:50.194 [DEBU] {acf88ab2ac320e17c8e7181bb5be28a3} [196 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time >='2021-03-02' AND event_time <='2022-04-12'
+2022-08-24 14:20:58.507 [DEBU] {eca3c82a9c330e17c9e7181b3032190c} [135 ms] [default] [rows:21 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:21:16.315 [DEBU] {d47bbe52a0330e17cae7181b873fe757} [ 93 ms] [default] [rows:21 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:23:50.573 [DEBU] {68ab0f3dc4330e17cbe7181bf2bf9d65} [ 96 ms] [default] [rows:20 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time >='2021-03-02' AND event_time <='2022-12-12'
+2022-08-24 14:24:53.618 [DEBU] {70fdececd2330e1734606c778997a991} [ 60 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:24:53.673 [DEBU] {70fdececd2330e1734606c778997a991} [ 54 ms] [default] [rows:20 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time >='2021-03-02' AND event_time <='2022-12-12'
+2022-08-24 14:26:59.698 [DEBU] {ec854649f0330e1735606c77a254860d} [ 37 ms] [default] [rows:21 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:26:59.762 [DEBU] {c8f88a4cf0330e1736606c776744ed0c} [ 47 ms] [default] [rows:21 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:26:59.840 [DEBU] {982a7f51f0330e1737606c77b0714392} [ 41 ms] [default] [rows:21 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:31:04.420 [DEBU] {4891b64229340e170cb5890e43e64dc4} [ 56 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:31:04.483 [DEBU] {4891b64229340e170cb5890e43e64dc4} [ 62 ms] [default] [rows:21 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE vehicle_number like '%1%'
+2022-08-24 14:31:41.493 [DEBU] {400f9be431340e170db5890eecd3d079} [ 54 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE vehicle_number like '%2%'
+2022-08-24 14:32:13.565 [DEBU] {6c7c404b37340e17c029c32167947472} [ 51 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:32:13.665 [DEBU] {6c7c404b37340e17c029c32167947472} [ 99 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`slice_name`,`slice_size`,`eventId`,`duration`,`vehicle_model`,`event_description`,`slice_url`,`event_time`,`slice_md5`,`start_time`,`trigger_type`,`vehicle_number`,`event_type`) VALUES('2022-08-24_14-31-21',4679,0,16,'X3S','','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_14-31-21.7z','2022-08-24 06:31:21','f1420825a84008dbd8227f4fa4c5afae','2022-08-24 06:31:05','','10008','HMIAction') 
+2022-08-24 14:32:13.751 [DEBU] {6c7c404b37340e17c029c32167947472} [ 83 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`slice_url`,`slice_name`,`start_time`,`duration`,`vehicle_number`,`eventId`,`slice_md5`,`event_description`,`trigger_type`,`vehicle_model`,`event_time`,`slice_size`,`event_type`) VALUES('http://172.16.0.28:30009/software/DCL/10008/2022-08-24_14-31-21.7z','2022-08-24_14-31-21','2022-07-25 02:03:03',16,'10008',0,'f1420825a84008dbd8227f4fa4c5afae','','','X3S','2022-07-25 02:03:19',4679,'Intervention') 
+2022-08-24 14:32:32.986 [DEBU] {e00690dd3d340e17c329c321dba3ef36} [125 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%time.Date(2022, time.August, 23, 9, 13, 40, 0, time.Local)%'
+2022-08-24 14:32:43.573 [DEBU] {bc1b1f5640340e17c429c3211e83c78e} [100 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%time.Date(2022, time.August, 23, 0, 0, 0, 0, time.Local)%'
+2022-08-24 14:37:40.749 [DEBU] {a4f4768985340e175eaaad6c458cb703} [ 61 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:37:40.817 [DEBU] {a4f4768985340e175eaaad6c458cb703} [ 66 ms] [default] [rows:9  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-08-23%'
+2022-08-24 14:38:12.439 [DEBU] {e45a6ae88c340e17380dba36256cc660} [ 93 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:38:12.537 [DEBU] {e45a6ae88c340e17380dba36256cc660} [ 98 ms] [default] [rows:23 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:40:08.041 [DEBU] {f49b33d1a7340e17390dba360dfcc00a} [121 ms] [default] [rows:23 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:40:08.519 [DEBU] {3c318defa7340e173a0dba36382be3af} [ 90 ms] [default] [rows:23 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:40:28.934 [DEBU] {601b02018c340e17350dba36ba3276d1} [113 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`vehicle_number`,`event_type`,`slice_url`,`duration`,`slice_size`,`slice_name`,`start_time`,`event_description`,`vehicle_model`,`trigger_type`,`eventId`,`slice_md5`,`event_time`) VALUES('10008','HMIAction','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_14-39-07.7z',16,9367436,'2022-08-24_14-39-07','2022-08-24 06:38:51','','X3S','',0,'e14772cb78d00a9ce6a5cc7c20967bb4','2022-08-24 06:39:07') 
+2022-08-24 14:40:29.036 [DEBU] {601b02018c340e17350dba36ba3276d1} [101 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`vehicle_model`,`slice_name`,`slice_md5`,`event_type`,`vehicle_number`,`slice_url`,`start_time`,`event_time`,`eventId`,`slice_size`,`duration`,`event_description`,`trigger_type`) VALUES('X3S','2022-08-24_14-39-07','e14772cb78d00a9ce6a5cc7c20967bb4','HMIAction','10008','http://172.16.0.28:30009/software/DCL/10008/2022-08-24_14-39-07.7z','2022-08-24 06:39:03','2022-08-24 06:39:19',0,9367436,16,'','') 
+2022-08-24 14:40:29.158 [DEBU] {601b02018c340e17350dba36ba3276d1} [121 ms] [default] [rows:1  ] INSERT INTO `eventsmall`(`slice_url`,`event_type`,`vehicle_number`,`slice_md5`,`eventId`,`vehicle_model`,`event_description`,`event_time`,`slice_size`,`slice_name`,`start_time`,`trigger_type`,`duration`) VALUES('http://172.16.0.28:30009/software/DCL/10008/2022-08-24_14-39-07.7z','HMIAction','10008','e14772cb78d00a9ce6a5cc7c20967bb4',0,'X3S','','2022-08-24 06:39:33',9367436,'2022-08-24_14-39-07','2022-08-24 06:39:17','',16) 
+2022-08-24 14:40:44.540 [DEBU] {7c2e1153b0340e173b0dba36731a9db3} [ 81 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:53:05.559 [DEBU] {3cda46d75c350e17a20f5c6c37e4b3a7} [147 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 14:53:05.761 [DEBU] {3cda46d75c350e17a20f5c6c37e4b3a7} [201 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:53:22.402 [DEBU] {a003d4c760350e17a30f5c6c9ce4a341} [ 71 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 14:53:47.446 [DEBU] {f4fe919b66350e17a40f5c6cd4744df7} [ 87 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 15:11:14.733 [DEBU] {8c556f035a360e178aad9e547f8ce933} [ 74 ms] [default] [rows:6  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:11:14.886 [DEBU] {8c556f035a360e178aad9e547f8ce933} [151 ms] [default] [rows:1  ] INSERT INTO `carinfo`(`vehicle_frame_number`,`vehicle_usege`,`vehicle_model`,`eventId`,`vehicle_number`,`vehicle_region`) VALUES('','','',0,'10008','') 
+2022-08-24 15:13:38.116 [DEBU] {dcd7b5647b360e178cf9982078f81b58} [ 79 ms] [default] [rows:6  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:13:38.210 [ERRO] {dcd7b5647b360e178cf9982078f81b58} [ 94 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_region`,`vehicle_usege`,`vehicle_number`,`vehicle_model`,`eventId`,`vehicle_frame_number`) VALUES('','','10008','',0,'') 
+Error: Error 1062: Duplicate entry '10008' for key 'carinfo.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:98
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 15:13:55.703 [DEBU] {38f3557b7f360e17a090c77ea00a6a01} [ 55 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:13:55.826 [ERRO] {38f3557b7f360e17a090c77ea00a6a01} [123 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_frame_number`,`vehicle_number`,`vehicle_region`,`vehicle_usege`,`vehicle_model`) VALUES('','10008','','','') 
+Error: Error 1062: Duplicate entry '10008' for key 'carinfo.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:98
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 15:14:43.879 [DEBU] {404c71b28a360e174d548b45111f853a} [ 70 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:14:43.981 [ERRO] {404c71b28a360e174d548b45111f853a} [101 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_usege`,`vehicle_model`,`vehicle_region`,`vehicle_frame_number`,`vehicle_number`) VALUES('','X3S','','LCW2021B00030-S','10008') 
+Error: Error 1062: Duplicate entry '10008' for key 'carinfo.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:100
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 15:15:00.832 [DEBU] {309aa6a98e360e17ae4dd0183a45001f} [ 96 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:15:00.902 [ERRO] {309aa6a98e360e17ae4dd0183a45001f} [ 69 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_number`,`vehicle_usege`,`vehicle_frame_number`,`vehicle_region`,`vehicle_model`) VALUES('10008','','LCW2021B00030-S','上海徐汇','X3S') 
+Error: Error 1062: Duplicate entry '10008' for key 'carinfo.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:101
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 15:15:20.964 [DEBU] {309aa6a98e360e17ae4dd0183a45001f} [ 79 ms] [default] [rows:1  ] INSERT INTO `carinfo`(`vehicle_number`,`vehicle_model`,`vehicle_frame_number`,`vehicle_region`,`vehicle_usege`) VALUES('001','','xxx','','') 
+2022-08-24 15:16:58.968 [DEBU] {68a0d651aa360e174f4abb1ffe5b3b8f} [171 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:16:59.092 [ERRO] {68a0d651aa360e174f4abb1ffe5b3b8f} [123 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_usege`,`vehicle_frame_number`,`vehicle_region`,`vehicle_number`,`vehicle_model`) VALUES('','LCW2021B00030-S','上海徐汇','10008','X3S') 
+Error: Error 1062: Duplicate entry '10008' for key 'carinfo.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:95
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 15:20:30.758 [DEBU] {104a10d6db360e17a2fbe02fa73ffe2c} [ 73 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 15:20:30.844 [DEBU] {104a10d6db360e17a2fbe02fa73ffe2c} [ 84 ms] [default] [rows:1  ] INSERT INTO `carinfo`(`vehicle_frame_number`,`vehicle_usege`,`vehicle_number`,`vehicle_model`,`vehicle_region`) VALUES('LCW2021B00030-S','','10008','X3S','上海徐汇') 
+2022-08-24 15:52:44.742 [DEBU] {24e494349e380e17aa63cc05494601cb} [ 55 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 15:52:44.896 [DEBU] {24e494349e380e17aa63cc05494601cb} [153 ms] [default] [rows:9  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-08-23%'
+2022-08-24 16:07:43.093 [DEBU] {f8e1695c6f390e17d70e4e6a1ca70c65} [ 90 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:07:43.226 [DEBU] {f8e1695c6f390e17d70e4e6a1ca70c65} [132 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-06-21%'
+2022-08-24 16:07:55.207 [DEBU] {042a592f72390e17d80e4e6a0da7d71a} [ 77 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-06-21%'
+2022-08-24 16:08:00.970 [DEBU] {acd7f18573390e177c6cd96e54a514a2} [ 91 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:08:01.089 [DEBU] {acd7f18573390e177c6cd96e54a514a2} [116 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-06-21%'
+2022-08-24 16:08:36.568 [DEBU] {dc990cd07b390e17d413b6306f7a3eed} [ 86 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:08:36.663 [DEBU] {dc990cd07b390e17d413b6306f7a3eed} [ 94 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-06-21%'
+2022-08-24 16:08:45.975 [DEBU] {48933afe7d390e17d513b630ab6e4c36} [130 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-06-21%'
+2022-08-24 16:09:05.148 [DEBU] {4419017582390e17004e33217afaebdc} [130 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:09:05.236 [DEBU] {4419017582390e17004e33217afaebdc} [ 85 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-06-21%'
+2022-08-24 16:11:35.413 [DEBU] {78e04972a5390e174340fc5227d223bc} [116 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:11:35.520 [DEBU] {78e04972a5390e174340fc5227d223bc} [106 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:11:35.627 [DEBU] {78e04972a5390e174340fc5227d223bc} [106 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:11:35.739 [DEBU] {78e04972a5390e174340fc5227d223bc} [111 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:11:35.820 [DEBU] {78e04972a5390e174340fc5227d223bc} [ 79 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:11:36.148 [DEBU] {78e04972a5390e174340fc5227d223bc} [326 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:12:36.989 [DEBU] {f4073acbb3390e17256a892c662c1f71} [ 71 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:12:37.110 [DEBU] {f4073acbb3390e17256a892c662c1f71} [119 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:12:37.226 [DEBU] {f4073acbb3390e17256a892c662c1f71} [115 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:12:37.358 [DEBU] {f4073acbb3390e17256a892c662c1f71} [132 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:12:37.466 [DEBU] {f4073acbb3390e17256a892c662c1f71} [107 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:12:37.564 [DEBU] {f4073acbb3390e17256a892c662c1f71} [ 97 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:14:34.208 [DEBU] {60336f15cf390e1783e8e233ef9092d9} [ 81 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:14:34.287 [DEBU] {60336f15cf390e1783e8e233ef9092d9} [ 78 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:14:34.367 [DEBU] {60336f15cf390e1783e8e233ef9092d9} [ 79 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:14:34.498 [DEBU] {60336f15cf390e1783e8e233ef9092d9} [130 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:14:34.585 [DEBU] {60336f15cf390e1783e8e233ef9092d9} [ 85 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:14:34.657 [DEBU] {60336f15cf390e1783e8e233ef9092d9} [ 71 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:14:59.365 [DEBU] {c0e28feed4390e17a29ecd65a0586eb0} [120 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:14:59.520 [DEBU] {c0e28feed4390e17a29ecd65a0586eb0} [152 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:14:59.654 [DEBU] {c0e28feed4390e17a29ecd65a0586eb0} [132 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:14:59.815 [DEBU] {c0e28feed4390e17a29ecd65a0586eb0} [160 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:14:59.907 [DEBU] {c0e28feed4390e17a29ecd65a0586eb0} [ 91 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:14:59.967 [DEBU] {c0e28feed4390e17a29ecd65a0586eb0} [ 60 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:15:19.296 [DEBU] {889eca94d9390e17b4a4945480ae3f27} [ 83 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:15:19.379 [DEBU] {889eca94d9390e17b4a4945480ae3f27} [ 82 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:15:19.462 [DEBU] {889eca94d9390e17b4a4945480ae3f27} [ 82 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:15:19.610 [DEBU] {889eca94d9390e17b4a4945480ae3f27} [146 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:15:19.738 [DEBU] {889eca94d9390e17b4a4945480ae3f27} [127 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:15:19.906 [DEBU] {889eca94d9390e17b4a4945480ae3f27} [168 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:16:39.207 [DEBU] {64e91f2eec390e176af0de6f261c24e3} [112 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:16:39.369 [DEBU] {64e91f2eec390e176af0de6f261c24e3} [161 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:16:39.477 [DEBU] {64e91f2eec390e176af0de6f261c24e3} [107 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:16:39.681 [DEBU] {64e91f2eec390e176af0de6f261c24e3} [204 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:16:39.856 [DEBU] {64e91f2eec390e176af0de6f261c24e3} [175 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:16:39.958 [DEBU] {64e91f2eec390e176af0de6f261c24e3} [101 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:16:58.278 [DEBU] {449c20a0f0390e1708e670659fab7fc9} [ 90 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:16:58.451 [DEBU] {449c20a0f0390e1708e670659fab7fc9} [172 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:16:58.583 [DEBU] {449c20a0f0390e1708e670659fab7fc9} [132 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:16:58.694 [DEBU] {449c20a0f0390e1708e670659fab7fc9} [109 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:16:58.776 [DEBU] {449c20a0f0390e1708e670659fab7fc9} [ 82 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:16:58.851 [DEBU] {449c20a0f0390e1708e670659fab7fc9} [ 75 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:17:24.287 [DEBU] {14fb9aaaf6390e1709e6706589e9eea8} [154 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-07-07%'
+2022-08-24 16:20:20.459 [DEBU] {146791b51f3a0e1713774f4d88b27d83} [ 48 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:20:20.594 [DEBU] {146791b51f3a0e1713774f4d88b27d83} [134 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-07-07%'
+2022-08-24 16:20:43.601 [DEBU] {901d2215253a0e1714774f4d58bebded} [112 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:20:43.693 [DEBU] {901d2215253a0e1714774f4d58bebded} [ 91 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmiddle`
+2022-08-24 16:20:43.824 [DEBU] {901d2215253a0e1714774f4d58bebded} [131 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:20:43.894 [DEBU] {901d2215253a0e1714774f4d58bebded} [ 68 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventmax`
+2022-08-24 16:20:44.050 [DEBU] {901d2215253a0e1714774f4d58bebded} [155 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:22:47.216 [DEBU] {f8786ad8413a0e1715774f4d19a42005} [192 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:22:47.351 [DEBU] {f8786ad8413a0e1715774f4d19a42005} [134 ms] [default] [rows:0  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmiddle` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:22:47.528 [DEBU] {f8786ad8413a0e1715774f4d19a42005} [175 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventmax` WHERE event_time like '%1970-01-01%'
+2022-08-24 16:23:58.462 [DEBU] {98826573523a0e17b0a4fc6bdc453409} [117 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 16:23:58.564 [DEBU] {98826573523a0e17b0a4fc6bdc453409} [101 ms] [default] [rows:9  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE event_time like '%2022-08-23%'
+2022-08-24 16:34:54.658 [DEBU] {100ba73deb3a0e17b1a4fc6bac95d932} [ 86 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 16:34:54.789 [DEBU] {38500c48eb3a0e17b2a4fc6bf87d3a4a} [ 43 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 16:34:54.871 [DEBU] {305e3b4aeb3a0e17b3a4fc6b98b5fb90} [ 87 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 16:35:50.003 [DEBU] {24f5d021f83a0e17b4a4fc6b64cd9335} [ 64 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 16:35:53.331 [DEBU] {28971de3f83a0e17b5a4fc6bdce4d413} [149 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 17:29:45.816 [DEBU] {48276a84e93d0e17b6a4fc6b14ca067c} [111 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 17:29:45.843 [DEBU] {7072df87e93d0e17b7a4fc6bc2a96395} [ 80 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 17:29:45.843 [DEBU] {b4463588e93d0e17b8a4fc6bba492f69} [ 75 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 17:29:52.098 [DEBU] {b8f16efdea3d0e17b9a4fc6b8223616e} [ 69 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 17:32:54.756 [DEBU] {4435e582153e0e17baa4fc6bda383017} [ 98 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 17:36:58.819 [DEBU] {88c89000243e0e170d5d061eb63d62a7} [ 48 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 17:36:58.912 [ERRO] {88c89000243e0e170d5d061eb63d62a7} [ 92 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_model`,`vehicle_usege`,`vehicle_frame_number`,`vehicle_region`,`vehicle_number`) VALUES('','','Y1099','','001') 
+Error: Error 1452: Cannot add or update a child row: a foreign key constraint fails (`dataloop`.`carinfo`, CONSTRAINT `carinfo_ibfk_1` FOREIGN KEY (`vehicle_number`) REFERENCES `eventmax` (`vehicle_number`) ON DELETE CASCADE ON UPDATE CASCADE)
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:95
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 17:38:30.081 [DEBU] {88c89000243e0e170d5d061eb63d62a7} [ 83 ms] [default] [rows:1  ] INSERT INTO `carinfo`(`vehicle_frame_number`,`vehicle_usege`,`vehicle_number`,`vehicle_model`,`vehicle_region`) VALUES('Y1099','','001','','') 
+2022-08-24 17:43:54.641 [DEBU] {5023b1f7ac3e0e179b1997620fd12c15} [ 43 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 17:43:54.693 [ERRO] {5023b1f7ac3e0e179b1997620fd12c15} [ 50 ms] [default] [rows:0  ] INSERT INTO `carinfo`(`vehicle_frame_number`,`vehicle_modle`,`vehicle_region`,`vehicle_usage`,`vehicle_number`) VALUES('Y1099','X3S','','清洁车','001') 
+Error: Error 1062: Duplicate entry '001' for key 'carinfo.PRIMARY'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:255
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core_underlying.go:113
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_core.go:451
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:366
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:188
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/database/gdb/gdb_model_insert.go:186
+9.  promise/internal/socket.(*cVechicleCommandController).onConnection
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:95
+10. promise/internal/socket.(*cVechicleCommandController).OnMessage
+    D:/work/promise/promise/internal/socket/vehicle_command_controller.go:66
+11. promise/internal/cmd.glob..func2.1
+    D:/work/promise/promise/internal/cmd/cmd.go:63
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:130
+13. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:128
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:88
+18. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+20. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_middleware_tracing.go:78
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_func.go:55
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:94
+24. github.com/gogf/gf/v2/util/gutil.TryCatch
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/util/gutil/gutil.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_request_middleware.go:48
+26. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    C:/Users/cowa/go/pkg/mod/github.com/gogf/gf/v2@v2.1.0-rc4/net/ghttp/ghttp_server_handler.go:121
+
+2022-08-24 17:44:16.160 [DEBU] {5023b1f7ac3e0e179b1997620fd12c15} [ 66 ms] [default] [rows:1  ] INSERT INTO `carinfo`(`vehicle_number`,`vehicle_usage`,`vehicle_region`,`vehicle_modle`,`vehicle_frame_number`) VALUES('001','清洁车','','X3S','Y1099') 
+2022-08-24 17:46:35.142 [DEBU] {e876b14bd13e0e178e07cc7cde693969} [ 49 ms] [default] [rows:5  ] SHOW FULL COLUMNS FROM `carinfo`
+2022-08-24 17:46:35.198 [DEBU] {e876b14bd13e0e178e07cc7cde693969} [ 52 ms] [default] [rows:1  ] INSERT INTO `carinfo`(`vehicle_usage`,`vehicle_modle`,`vehicle_number`,`vehicle_region`,`vehicle_frame_number`) VALUES('清洁车','X3S','001','上海','Y1099') 
+2022-08-24 18:22:19.663 [DEBU] {18b975d6c7400e171186e14b5b6f038c} [ 75 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 18:22:19.761 [DEBU] {18b975d6c7400e171186e14b5b6f038c} [ 85 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:23.521 [DEBU] {684075bdc8400e171286e14bf19252dc} [ 59 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:25.359 [DEBU] {3461b729c9400e171386e14b9c076821} [ 81 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:26.830 [DEBU] {f047ce83c9400e171486e14b0bf007a6} [ 39 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:28.933 [DEBU] {681cd200ca400e171586e14bdbc7d067} [ 46 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:31.992 [DEBU] {f43b53b5ca400e171686e14bbc4de823} [ 77 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:38.472 [DEBU] {60c5e035cc400e171786e14be34fd6f7} [105 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:41.140 [DEBU] {98204dd6cc400e171886e14bc5cc64f8} [ 81 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:42.137 [DEBU] {e0cf4112cd400e171986e14bbc5ef499} [ 72 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:42.955 [DEBU] {c03f0d42cd400e171a86e14bd6fc7ede} [ 89 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:44.463 [DEBU] {f0ddae9acd400e171b86e14b84387829} [110 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:44.951 [DEBU] {3c2fe4b8cd400e171c86e14b15b7b3f8} [ 91 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:45.381 [DEBU] {60bca6d1cd400e171d86e14beb89f82a} [105 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:46.104 [DEBU] {0896b7fdcd400e171e86e14b9b4cbc17} [ 89 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:46.506 [DEBU] {c8d29d15ce400e171f86e14be0c4abc0} [ 90 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:48.080 [DEBU] {30783575ce400e172086e14b3e28cb2d} [ 60 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:48.479 [DEBU] {2c100d8cce400e172186e14b3b3f83dc} [ 76 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:48.659 [DEBU] {64667897ce400e172286e14b1fa183a5} [ 65 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:50.658 [DEBU] {147c370dcf400e172386e14b71d04d41} [ 88 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:54.074 [DEBU] {b8acb7cbcf400e172486e14b27e4237f} [308 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:56.006 [DEBU] {8475224ed0400e172586e14bfbdf1cbd} [ 52 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:57.786 [DEBU] {98f717b8d0400e172686e14b9ffce196} [ 54 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:22:58.569 [DEBU] {0c976de5d0400e172786e14bd75c7679} [ 77 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:23:09.237 [DEBU] {48aa6762d3400e172886e14b7e59d3f4} [ 58 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:23:19.320 [DEBU] {2cd03bb9d5400e172986e14be3a0dfd8} [ 94 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:23:19.996 [DEBU] {c81936e3d5400e172a86e14b0399e4fe} [ 66 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:23:23.405 [DEBU] {b811c5acd6400e172b86e14b965cd70b} [ 92 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:24:23.136 [DEBU] {38610594e4400e172c86e14b2af35ac3} [109 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 18:24:23.820 [DEBU] {d428ccbee4400e172d86e14b88532d3d} [ 76 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:10:10.502 [DEBU] {148c504264430e172e86e14b4e6149ac} [ 67 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:10:13.449 [DEBU] {20e19ff064430e172f86e14bc0b73920} [ 90 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:10:15.561 [DEBU] {64a7b16f65430e173086e14b75c70275} [ 69 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:21:38.000 [DEBU] {1c60aa5204440e173186e14b0601a537} [ 96 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:21:40.515 [DEBU] {f4149ae904440e173286e14b8812305a} [ 79 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:21:45.534 [DEBU] {f01c6a1406440e173386e14b6795b504} [ 85 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:21:50.456 [DEBU] {e4bf2a3907440e173486e14b78f6e932} [ 96 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:21:53.888 [DEBU] {a8c8980708440e173586e14bad64b246} [ 64 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:21:56.871 [DEBU] {d413f3b708440e173686e14bfc09b5bc} [ 89 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:22:00.059 [DEBU] {449f887609440e173786e14bfe436a8a} [ 79 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:22:02.247 [DEBU] {c87e3ef809440e173886e14b40c4b42b} [ 91 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:22:05.699 [DEBU] {fcf7f0c40a440e173986e14b638357d6} [109 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:22:33.664 [DEBU] {3824ec4611440e173a86e14bbc011cbc} [122 ms] [default] [rows:1  ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` WHERE vehicle_number like '%2%'
+2022-08-24 19:31:24.501 [DEBU] {606daee28c440e17cb6f0c64a73ccae6} [ 64 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 19:31:24.589 [DEBU] {606daee28c440e17cb6f0c64a73ccae6} [ 87 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:31:47.346 [DEBU] {e07f843392440e17cc6f0c6466d04612} [ 80 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:05.479 [DEBU] {b8c1675f96440e17cd6f0c645e221d3a} [296 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:07.485 [DEBU] {c02586e396440e17ce6f0c647a4047f5} [ 86 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:08.214 [DEBU] {002e161097440e17cf6f0c6424a16f25} [ 68 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:09.014 [DEBU] {e063693d97440e17d06f0c648eceba03} [107 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:11.527 [DEBU] {643ce9d397440e17d16f0c646ec47e3c} [ 94 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:12.120 [DEBU] {d4e325f897440e17d26f0c644e8ef92d} [ 80 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:13.063 [DEBU] {8832e62098440e17d36f0c64aa122814} [340 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:32:13.553 [DEBU] {d8834f4d98440e17d46f0c64b6334f48} [ 84 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:33:25.701 [DEBU] {9424a219a9440e17d56f0c6447fa42e9} [ 84 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:33:34.920 [DEBU] {a4fd313fab440e17d66f0c64c557fa5e} [ 84 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:39:48.552 [DEBU] {d83f134002450e17d76f0c644f9458e5} [ 38 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`
+2022-08-24 19:45:46.250 [DEBU] {b461758755450e175b417237b518f417} [ 56 ms] [default] [rows:13 ] SHOW FULL COLUMNS FROM `eventsmall`
+2022-08-24 19:45:46.302 [DEBU] {b461758755450e175b417237b518f417} [ 51 ms] [default] [rows:26 ] SELECT `eventId`,`event_time`,`event_type`,`event_description`,`trigger_type`,`vehicle_number`,`vehicle_model`,`slice_url`,`slice_name`,`slice_size`,`slice_md5`,`start_time`,`duration` FROM `eventsmall` ORDER BY `event_time`

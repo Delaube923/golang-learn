@@ -10,15 +10,12 @@ import (
 
 // Carinfo is the golang structure of table carinfo for DAO operations like Where/Data.
 type Carinfo struct {
-	g.Meta        `orm:"table:carinfo, do:true"`
-	VehicleNumber interface{} // 车辆编号
-	VehicleModel  interface{} // 车辆型号
-	SliceUrl      interface{} // 切片存储地址
-	SliceName     interface{} // 切片名称
-	SliceSize     interface{} // 切片大小
-	SliceMd5      interface{} // 切片md5值
-	EventId       interface{} // 事件id
-	Vin           interface{} // 车架号
-	VehicleUse    interface{} // 车辆用途
-	VehicleArea   interface{} // 所属地区
+	g.Meta             `orm:"table:carinfo, do:true"`
+	VehicleNumber      interface{} // 车辆编号
+	VehicleModel       interface{} // 车辆型号
+	VehicleFrameNumber interface{} // 车架号
+	VehicleUsage       interface{} // 车辆用途
+	VehicleRegion      interface{} // 所属地区
+	Version            interface{} // 大版本号
+	Status             interface{} // 车辆状态
 }

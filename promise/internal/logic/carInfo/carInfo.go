@@ -29,13 +29,16 @@ func New() *sCarInfo {
 }
 
 type test struct {
-	VehicleNumber string `json:"vehicleNumber" description:"车辆编号"`
-	VehicleModel  string `json:"vehicleModel"  description:"车辆型号"`
-	SliceName     string `json:"sliceName" description:"切片名称"`
-	SliceUrl      string `json:"sliceUrl"      description:"切片存储地址"`
-	SliceSize     int    `json:"sliceSize"     description:"切片大小"`
-	SliceMd5      string `json:"sliceMd5"      description:"切片md5值"`
-	EventId       string `json:"eventId"       description:"事件id"`
+	VehicleNumber      string `json:"vehicleNumber" description:"车辆编号"`
+	VehicleModel       string `json:"vehicleModel"  description:"车辆型号"`
+	SliceName          string `json:"sliceName" description:"切片名称"`
+	SliceUrl           string `json:"sliceUrl"      description:"切片存储地址"`
+	SliceSize          int    `json:"sliceSize"     description:"切片大小"`
+	SliceMd5           string `json:"sliceMd5"      description:"切片md5值"`
+	EventId            string `json:"eventId"       description:"事件id"`
+	VehicleFrameNumber string `json:"vehicleFrameNumber" description:"车架号"`
+	VehicleUsege       string `json:"vehicleUsege" description:"车辆用途"`
+	VehicleRegion      string `json:"vehicleRegion" description:"所属地区"`
 }
 
 // 从数据库获取车辆信息
@@ -72,11 +75,11 @@ func (s *sCarInfo) AddCarInfo(ctx context.Context, req *v1.CarInfoAddReq) (err e
 	err = g.DB().Transaction(ctx, func(ctx context.Context, tx *gdb.TX) error {
 		err = g.Try(func() {
 			data := do.Carinfo{
-				VehicleNumber: req.VehicleNumber,
-				VehicleModel:  req.VehicleModel,
-				SliceUrl:      req.SliceUrl,
-				SliceSize:     req.SliceSize,
-				SliceMd5:      req.SliceMd5,
+				VehicleNumber:      req.VehicleNumber,
+				VehicleModel:       req.VehicleModel,
+				VehicleFrameNumber: req.VehicleFrameNumber,
+				VehicleUsage:       req.VehicleUsage,
+				VehicleRegion:      req.VehicleRegion,
 			}
 			_, e := dao.Carinfo.Ctx(ctx).TX(tx).Insert(data)
 			liberr.ErrIsNil(ctx, e, "添加车辆信息失败")

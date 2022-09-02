@@ -18,7 +18,7 @@ type EventGetListInput struct {
 
 // 查询列表结果
 type EventGetListOutput struct {
-	List  []EventListOutputItem `json:"eventlist" description:"列表"`
+	List  []EventListOutputItem `json:"data" description:"列表"`
 	Page  int                   `json:"page" description:"分页码"`
 	Size  int                   `json:"size" description:"分页数量"`
 	Total int                   `json:"total" description:"数据总数"`
@@ -35,12 +35,15 @@ type EventListItem struct {
 	EventTime        *gtime.Time `json:"eventTime" description:"事件发生日期/时间"`
 	EventType        string      `json:"eventType" description:"事件类型"`
 	EventDescription string      `json:"eventDescription" description:"事件描述"`
-	StartTime        *gtime.Time `json:"startTime"  description:"切片数据开始时间"`
-	Duration         int         `json:"duration" description:"切片数据的持续时间(s)"`
-	SliceUrl         string      `json:"sliceUrl"      description:"切片存储地址"`
 	TriggerType      string      `json:"TriggerType" description:"触发类型"`
 	VehicleNumber    string      `json:"vehicleNumber"   description:"车辆编号"`
 	VehicleModel     string      `json:"vehicleModel"   description:"车辆类型"`
+	SliceUrl         string      `json:"sliceUrl"         description:"切片存储地址"`
+	SliceName        string      `json:"sliceName"        description:"切片名称"`
+	SliceSize        int         `json:"sliceSize"        description:"切片大小"`
+	SliceMd5         string      `json:"sliceMd5"         description:"切片md5值"`
+	StartTime        *gtime.Time `json:"startTime"  description:"切片数据开始时间"`
+	Duration         int         `json:"duration" description:"切片数据的持续时间(s)"`
 }
 
 // 添加事件

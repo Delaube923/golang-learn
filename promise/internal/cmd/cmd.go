@@ -27,8 +27,10 @@ var (
 				group.Middleware(
 					service.Middleware().Ctx,
 					service.Middleware().I18NMiddleware,
+
 					// service.Middleware().TokenAuth,
 					service.Middleware().MiddlewareCORS,
+					// service.Middleware().ResponseHandler,
 				)
 				group.Bind(
 					controller.Hello,
@@ -39,7 +41,6 @@ var (
 				)
 
 			})
-
 			s.Run()
 			return nil
 		},

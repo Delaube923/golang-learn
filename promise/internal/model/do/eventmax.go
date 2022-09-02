@@ -19,7 +19,10 @@ type Eventmax struct {
 	StartTime        *gtime.Time // 切片数据开始时间
 	Duration         interface{} // 切片数据的持续时间(s)
 	TriggerType      interface{} // 事件触发方式
-	SliceUrl         interface{} // slice数据地址
 	VehicleNumber    interface{} // 车辆编号
 	VehicleModel     interface{} // 车辆型号
+	SliceUrl         interface{} // 切片存储地址
+	SliceName        interface{} // 切片名称
+	SliceSize        interface{} // 切片大小
+	SliceMd5         interface{} // 切片md5值
 }

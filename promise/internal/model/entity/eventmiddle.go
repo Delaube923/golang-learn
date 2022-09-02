@@ -17,7 +17,10 @@ type Eventmiddle struct {
 	StartTime        *gtime.Time `json:"startTime"        description:"数据开始时间"`
 	Duration         int         `json:"duration"         description:"切片数据的持续时间(s)"`
 	TriggerType      string      `json:"triggerType"      description:"事件触发方式"`
-	SliceUrl         string      `json:"sliceUrl"         description:"slice数据地址"`
 	VehicleNumber    string      `json:"vehicleNumber"    description:"车辆编号"`
 	VehicleModel     string      `json:"vehicleModel"     description:"车辆型号"`
+	SliceUrl         string      `json:"sliceUrl"         description:"切片存储地址"`
+	SliceName        string      `json:"sliceName"        description:"切片名称"`
+	SliceSize        int         `json:"sliceSize"        description:"切片大小"`
+	SliceMd5         string      `json:"sliceMd5"         description:"切片md5值"`
 }

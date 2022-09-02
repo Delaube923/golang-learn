@@ -12,7 +12,6 @@ server:
     address:    ":39124"
 
 
-
 # 数据库连接配置
 database:
   logger:
@@ -22,7 +21,7 @@ database:
     ctxKeys: ["RequestId"]
 
   default:
-    link:   "mysql:root:admin@tcp(118.25.144.84:6607)/dataloop"
+    link:   "mysql:root:admin@tcp(118.25.144.84:6607)/dataloop?loc=Local"
     debug:  true
     maxIdle: 10 #连接池最大闲置的连接数
     maxOpen: 10 #连接池最大打开的连接数

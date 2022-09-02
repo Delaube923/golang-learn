@@ -1,24 +1,28 @@
 {
-    "token": "0x12345678",
-    "id": "80",
     "data": {
-        "task_id": "xxx",
-        "vehicle_number": "001",
-        "vehicle_model": "X3S",
-        "success": true,
-        "slice_name": "yy-mm-dd_hh-mm-ss.7z",
-        "slice_size": 102400,
-        "slice_md5": "123456",
-        "slice_url": "httpxxx",
-        "slice_info": [
-            {
-                "event_time": "yy-mm-dd_hh-mm-ss",
-                "trigger_type": "自动",
-                "event_type": "超车",
-                "event_description": "低级别风险",
-                "start_time": 123456,
-                "duration": 20
-            }
-        ]
-    }
-}
+      "slice_info": [
+        {
+          "duration": 16,
+          "event_description": "",
+          "event_time": "2022-08-31 07:06:46",
+          "event_type": "HMIAction",
+          "start_time": "2022-08-31 07:06:30"
+        },
+        {
+            "duration": 13,
+            "event_description": "",
+            "event_time": "2022-08-30 07:06:46",
+            "event_type": "Intervention",
+            "start_time": "2022-08-31 07:06:30"
+          }
+      ],
+      "slice_md5": "d484c810b6208a04d55aea0bad1a3901",
+      "slice_name": "2022-08-30_14-06-46.7z",
+      "slice_size": 4647,
+      "slice_url": "http://118.25.144.84:8080/group1/big/upload/cc68f9ee23d694a81b7b997dc734e57d",
+      "vehicle_model": "X3S",
+      "vehicle_number": "10008"
+    },
+    "id": 80,
+    "token": "0x12345678"
+  }

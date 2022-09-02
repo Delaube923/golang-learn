@@ -27,9 +27,12 @@ type EventmaxColumns struct {
 	StartTime        string // 切片数据开始时间
 	Duration         string // 切片数据的持续时间(s)
 	TriggerType      string // 事件触发方式
-	SliceUrl         string // slice数据地址
 	VehicleNumber    string // 车辆编号
 	VehicleModel     string // 车辆型号
+	SliceUrl         string // 切片存储地址
+	SliceName        string // 切片名称
+	SliceSize        string // 切片大小
+	SliceMd5         string // 切片md5值
 }
 
 //  eventmaxColumns holds the columns for table eventmax.
@@ -41,9 +44,12 @@ var eventmaxColumns = EventmaxColumns{
 	StartTime:        "start_time",
 	Duration:         "duration",
 	TriggerType:      "trigger_type",
-	SliceUrl:         "slice_url",
 	VehicleNumber:    "vehicle_number",
 	VehicleModel:     "vehicle_model",
+	SliceUrl:         "slice_url",
+	SliceName:        "slice_name",
+	SliceSize:        "slice_size",
+	SliceMd5:         "slice_md5",
 }
 
 // NewEventmaxDao creates and returns a new DAO object for table data access.
